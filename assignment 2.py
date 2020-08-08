@@ -1,3 +1,14 @@
+# Question 1
+# 1. Create the below pattern using nested for loop in Python.
+# *
+# * *
+# * * *
+# * * * *
+# * * * * *
+# * * * *
+# * * *
+# * *
+# *
 # without nested loops
 a = 1
 j = 1
@@ -20,6 +31,10 @@ for i in range(1, 2*k):
         f += 1
     print('\r')
 
-# reversing word
+# Question 2
+# 2. Write a Python program to reverse a word after accepting the input from the user.
+# Input word: ineuron
+# Output: norueni
+
 word = input('Enter a word:')
 print(word[::-1])
