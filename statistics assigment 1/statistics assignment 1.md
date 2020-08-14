@@ -209,7 +209,8 @@ $\text{=56 * 0.2373 * 0.015625 = 0.2076}$
 
 $\text{For Barkha:}
 \\
-\text{Let x be the number of questions to solve 5. Number of questions he solves(n) is 12. Probability(p) i.e. the correction rate is 0.45.}$
+\text{Let x be the number of questions to solve 5. Number of questions she solves(n) is 12.}$
+$\text{Probability(p) i.e. the correction rate is 0.45.}$
 $\text{P(X) = } {n \choose x}{p^x}{q^{n-x}} = {12 \choose 5}{(0.45)^5}{(0.55)^{12-5}}$
 
 $\text{ =792 * 0.0185 * 0.015 = 0.223}$
@@ -277,34 +278,38 @@ customers arriving in 4 minutes? a) 5 customers, b) not more than 3 customers, c
 more than 3 customers. Give a pictorial representation of the same to validate your
 answer.
 
-$\text{Formula for poisson's distribution is:}
-\begin{equation}
-P(x) = \frac{e^{-\mu}{\mu}^x}{x!}
-\end{equation}\\$
+$\text{Formula for poisson's distribution is:}$
+$\begin{equation}
+P(x) = \frac{e^{-\lambda}{\lambda}^x}{x!}
+\end{equation}$
 
 a\) $\text{Per four minutes the average number of customers is (72/60)*4 which is 4.8.
-So } \mu \text{ is 4.8.}
-\\
-\text{We need to find the probability for 5 customers in 4 minutes. So x is 5. }$
-$\text{Substituting the values to formula we get:}
-\begin{equation}
-P(x) = \frac{e^{-4.8}{4.8}^5}{5!} = \frac{0.00823*2548.04}{120} = 0.175
+So } {\lambda} \text{ is 4.8.}$
+
+$\text{We need to find the probability for 5 customers in 4 minutes. So x is 5. }$
+$\text{Substituting the values to formula we get:}$
+$\begin{equation}
+P(x) = \frac{e^{-4.8}{4.8}^5}{5!} = \frac{0.00823 * 2548.04}{120} = 0.175
 \end{equation}$
 
 b\) $\text{Per four minutes the average number of customers is (72/60)*4 which is 4.8.
-So } \mu \text{ is 4.8.}
-\\
-\text{We need to find the probability for not more than 3 customers in 4 minutes. So x is 0, 1, 2, 3. }$
-$\text{Substituting the values to formula we get:}
-\begin{equation}
-P(x_{0})+P(x_{1})+P(x_{2})+P(x_{3}) 
-= \frac{e^{-4.8}{4.8}^0}{0!}+ \frac{e^{-4.8}{4.8}^1}{1!}+\frac{e^{-4.8}{4.8}^2}{2!}+\frac{e^{-4.8}{4.8}^3}{3!} =\frac{0.00823*1}{1}+\frac{0.00823*4.8}{1}+\frac{0.00823*23.04}{2}+\frac{0.00823*110.59}{6}
-= 0.00823+0.0395+0.095+0.152
-= 0.2944
-\end{equation}$
+So } {\lambda} \text{ is 4.8.}$
 
-c\) $\text{More than 3 customers is:}
-\begin{equation}:
+$\text{We need to find the probability for not more than 3 customers in 4 minutes. So x is 0, 1, 2, 3. }$
+$\text{Substituting the values to formula we get:}$
+$\text{P(x_{0})+P(x_{1})+P(x_{2})+P(x_{3})}$
+
+$\text{= \frac{e^{-4.8}{4.8}^0}{0!}+ \frac{e^{-4.8}{4.8}^1}{1!}+\frac{e^{-4.8}{4.8}^2}{2!}+\frac{e^{-4.8}{4.8}^3}{3!}}$
+
+$\text{ =\frac{0.00823 * 1}{1}+\frac{0.00823 * 4.8}{1}+\frac{0.00823 * 23.04}{2}+\frac{0.00823 * 110.59}{6}}$
+
+\text{= 0.00823+0.0395+0.095+0.152}$
+
+\text{= 0.2944}$
+
+c\) $\text{More than 3 customers is:}$
+
+$\begin{equation}:
 1 - P(x_{0})+P(x_{1})+P(x_{2})+P(x_{3}) = 1 - 0.2944 = 0.706
 \end{equation}$
 
@@ -446,32 +451,27 @@ what is the proportion of those parts? What is the CDF when the diameter is of 1
 mm?
 What is the conclusion of this experiment?
 
-$$\text{Proportion that a part with diameter > 12.5mm needs to be scraped is:}
-\\
-\begin{equation}
+$\text{Proportion that a part with diameter > 12.5mm needs to be scraped is:}$
+
+$\begin{equation}
 P(X>12.6)= \int_{12.6}^{\infty} 20e^{-20(x-12.5)} dx = \left[-e^{-20(x-12.5)}\right]_{12.6}^{\infty} = 0.135
-\end{equation}$$
+\end{equation}$
 
 
-$$\text{CDF when diameter is 11mm is 0 since the PDF function is only applicable when d>=12.5 .}
-\\
-\text{For proportion of scraps: P(12.5 < X < x) that is proportion that a particular diameter x lies between X ans 12.5}
-\\
-\text{F(x) = 0 for x < 12.5}
-\\$$
+$\text{CDF when diameter is 11mm is 0 since the PDF function is only applicable when d>=12.5 .}$
 
-$$\begin{equation} F(x)= \int_{12.5}^x 20e^{-20(u-12.5)} du = 1 - e^{-20(x-12.5)} \text{for x>= 12.5} \end{equation}$$
+$\text{For proportion of scraps: P(12.5 < X < x) that is proportion that a particular diameter x lies between X ans 12.5}$
 
-\begin{equation}
-  F(x)=\begin{cases}
-    0, & \text{if $x<12.5$}.\\
-    1-e^{-20(x-12.5)}, & \text{for x>=12.5}.
-  \end{cases} 
-  \\
+$\text{F(x) = 0 for x < 12.5}$
+
+$\begin{equation} F(x)= \int_{12.5}^x 20e^{-20(u-12.5)} du = 1 - e^{-20(x-12.5)} \text{for x>= 12.5} \end{equation}$
+
+$\begin{equation}
+  F(x)= 0, \text{if $x<12.5$ and }1-e^{-20(x-12.5)} \text{ for x>=12.5}.
   \text{where F(x) is P(12.5 < X < x)}
-\end{equation}
+\end{equation}$
 <h3>Conclusion </h3>
-<p>For any value of diameter less than 12.5 mm, the proportion of scraps is zero. For any value above 12.5 mm the proportion of scraps follow the equation: </p> $$1-e^{-20(x-12.5)}$$
+<p>For any value of diameter less than 12.5 mm, the proportion of scraps is zero. For any value above 12.5 mm the proportion of scraps follow the equation: </p> $1-e^{-20(x-12.5)}$
 
 # Problem Statement 10:
 
