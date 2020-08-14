@@ -102,7 +102,7 @@ f(x) = 0.09, 0.15, 0.40, 0.25, 0.10, 0.01
 Calculate the mean no. of workouts in a week. Also evaluate the variance involved in
 it.
 
-$$\text{Formula for mean is:} \sum_{i=1}^{n} x_{i}*f(x_{i})$
+$\text{Formula for mean is:} \sum_{i=1}^{n} x_{i}*f(x_{i})$
 
 $\text{Formula for variance is:} \sum_{i=1}^{n} (Mean - x_{i})^{2}*f(x_{i})$
 
@@ -147,13 +147,10 @@ $\text{F(x) = 0 for x < 12.5}$
 $\begin{equation} F(x)= \int_{12.5}^x 20e^{-20(u-12.5)} du = 1 - e^{-20(x-12.5)} \text{for x>= 12.5} \end{equation}$
 
 $\begin{equation}
-  F(x)=\begin{cases}
-    0, & \text{if $x<12.5$}.\\
-    1-e^{-20(x-12.5)}, & \text{for x>=12.5}.
-  \end{cases} 
-  \\
-  \text{where F(x) is P(12.5 < X < x)}
-\end{equation}$
+  F(x)=
+    0, & \text{if $x<12.5$ and}  1-e^{-20(x-12.5)}, & \text{for x>=12.5}\end{equation}$
+ 
+  $\text{where F(x) is P(12.5 < X < x)}$
 
 <h3>Conclusion </h3>
 <p>For any value of diameter less than 12.5 mm, the proportion of scraps is zero. For any value above 12.5 mm the proportion of scraps follow the equation: </p> $1-e^{-20(x-12.5)}$
@@ -167,11 +164,9 @@ associated with it.
 
 $\text{Let x be the faulty LEDs which is 2. Here n is 6 and p is 0.3(success i.e. faulty).}
 \text{The probability that 2 will be faulty is:}$
-$\begin{equation}
-P(X) = {n \choose x}{p^x}{q^{n-x}} = {6 \choose 2}{(0.3)^2}{(0.7)^{6-2}}
-\\
-=15*0.09*0.2401 = 0.3241
-\end{equation}$
+$P(X) = {n \choose x}{p^x}{q^{n-x}} = {6 \choose 2}{(0.3)^2}{(0.7)^{6-2}}$
+
+$=15*0.09*0.2401 = 0.3241$
 
 $\text{Standard Deviation formula for binomial distribution is: }\sqrt{n*p*(1-p)}$
 
