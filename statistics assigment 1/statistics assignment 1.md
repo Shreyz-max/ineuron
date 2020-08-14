@@ -148,7 +148,7 @@ $\begin{equation} F(x)= \int_{12.5}^x 20e^{-20(u-12.5)} du = 1 - e^{-20(x-12.5)}
 
 $\begin{equation}
   F(x)=
-    0, \text{if $x<12.5$ and}  1-e^{-20(x-12.5)}, \text{for x>=12.5}\end{equation}$
+    0, \text{if $x<12.5$ and }  1-e^{-20(x-12.5)}, \text{for x>=12.5}\end{equation}$
  
   $\text{where F(x) is P(12.5 < X < x)}$
 
@@ -166,7 +166,7 @@ $\text{Let x be the faulty LEDs which is 2. Here n is 6 and p is 0.3(success i.e
 \text{The probability that 2 will be faulty is:}$
 $P(X) = {n \choose x}{p^x}{q^{n-x}} = {6 \choose 2}{(0.3)^2}{(0.7)^{6-2}}$
 
-$=15*0.09*0.2401 = 0.3241$
+$\text{=15*0.09*0.2401 = 0.3241}$
 
 $\text{Standard Deviation formula for binomial distribution is: }\sqrt{n*p*(1-p)}$
 
