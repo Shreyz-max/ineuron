@@ -53,7 +53,7 @@ particular month:
 100, 75, 104, 97, 75,
 123, 100, 75, 104, 97, 75, 123, 100, 89, 120, 109
 
-$$\text{Formula for mean is} \sum_{i=1}^{n} i
+$\text{Formula for mean is} \sum_{i=1}^{n} i
 \\
 \text{Formula for median is:} \frac{n+1}{2}^{th} \text{ term if number of observation is }\textbf{odd}\text{ and}\\
                               \frac{1}{2}(\frac{n}{2}^{th}+\frac{n+1}{2}^{th})\text{ term if number of observation is} \textbf{even.}
@@ -66,7 +66,7 @@ $$\text{Formula for mean is} \sum_{i=1}^{n} i
 \text{ where i is in the dataset}
 \\
 \text{{28, 122, 217, 130, 120, 86, 80, 90, 140, 120, 70, 40, 145, 
-113, 90, 68, 174, 194, 170, 100, 75, 104, 97, 75, 123, 100, 75, 104, 97, 75, 123, 100, 89, 120, 109}}$$
+113, 90, 68, 174, 194, 170, 100, 75, 104, 97, 75, 123, 100, 75, 104, 97, 75, 123, 100, 89, 120, 109}}$
 
 
 ```python
