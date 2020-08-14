@@ -14,12 +14,9 @@ $\text{Formula for mean is} \sum_{i=1}^{n} i
 \text{Formula for median is:} \frac{n+1}{2}^{th} \text{ term if number of observation is }\textbf{odd}\text{ and}\\
                               \frac{1}{2}(\frac{n}{2}^{th}+\frac{n+1}{2}^{th})\text{ term if number of observation is} \textbf{even.}
 \\
-
 \text{A number that appears most often is the}\textbf{ mode.}
 \\
-
 \text{Formula for standard deviation is }=\sqrt{\frac{1}{N}\sum_{i=1}^N(x_i-\bar{x})^2}
-
 \\
 \text{Formula for mean here is} \sum_{i=1}^{20} i
 \text{ where i is in the dataset {6, 7, 5, 7, 7, 8, 7, 6, 9, 7, 4, 10, 6, 8, 8, 9, 5, 6, 4, 8}}$
@@ -141,14 +138,14 @@ P(X>12.6)= \int_{12.6}^{\infty} 20e^{-20(x-12.5)} dx = \left[-e^{-20(x-12.5)}\ri
 \end{equation}$$
 
 
-$$\text{CDF when diameter is 11mm is 0 since the PDF function is only applicable when d>=12.5 .}
+$\text{CDF when diameter is 11mm is 0 since the PDF function is only applicable when d>=12.5 .}
 \\
 \text{For proportion of scraps: P(12.5 < X < x) that is proportion that a particular diameter x lies between X ans 12.5}
 \\
 \text{F(x) = 0 for x < 12.5}
-\\$$
+\\$
 
-$$\begin{equation} F(x)= \int_{12.5}^x 20e^{-20(u-12.5)} du = 1 - e^{-20(x-12.5)} \text{for x>= 12.5} \end{equation}$$
+$\begin{equation} F(x)= \int_{12.5}^x 20e^{-20(u-12.5)} du = 1 - e^{-20(x-12.5)} \text{for x>= 12.5} \end{equation}$
 
 \begin{equation}
   F(x)=\begin{cases}
@@ -160,7 +157,7 @@ $$\begin{equation} F(x)= \int_{12.5}^x 20e^{-20(u-12.5)} du = 1 - e^{-20(x-12.5)
 \end{equation}
 
 <h3>Conclusion </h3>
-<p>For any value of diameter less than 12.5 mm, the proportion of scraps is zero. For any value above 12.5 mm the proportion of scraps follow the equation: </p> $$1-e^{-20(x-12.5)}$$
+<p>For any value of diameter less than 12.5 mm, the proportion of scraps is zero. For any value above 12.5 mm the proportion of scraps follow the equation: </p> $1-e^{-20(x-12.5)}$
 
 # Problem Statement 5:
 
@@ -169,15 +166,15 @@ chosen LEDs, what is the probability of having 2 faulty LEDs in my sample?
 Calculate the average value of this process. Also evaluate the standard deviation
 associated with it.
 
-$$\text{Let x be the faulty LEDs which is 2. Here n is 6 and p is 0.3(success i.e. faulty).}
-\text{The probability that 2 will be faulty is:}$$
-$$\begin{equation}
+$\text{Let x be the faulty LEDs which is 2. Here n is 6 and p is 0.3(success i.e. faulty).}
+\text{The probability that 2 will be faulty is:}$
+$\begin{equation}
 P(X) = {n \choose x}{p^x}{q^{n-x}} = {6 \choose 2}{(0.3)^2}{(0.7)^{6-2}}
 \\
 =15*0.09*0.2401 = 0.3241
-\end{equation}$$
+\end{equation}$
 
-$$\text{Standard Deviation formula for binomial distribution is: }\sqrt{n*p*(1-p)}$$
+$\text{Standard Deviation formula for binomial distribution is: }\sqrt{n*p*(1-p)}$
 
 
 ```python
@@ -208,23 +205,23 @@ correct solutions? What do you infer from it? What are the two main governing
 factors affecting their ability to solve questions correctly? Give a pictorial
 representation of the same to validate your answer.
 
-$$\text{For Gaurav:}
+$\text{For Gaurav:}
 \\
-\text{Let x be the number of questions to solve 5. Number of questions he solves(n) is 8. Probability(p) i.e. the correction rate is 0.75.}$$
-$$\begin{equation}
+\text{Let x be the number of questions to solve 5. Number of questions he solves(n) is 8. Probability(p) i.e. the correction rate is 0.75.}$
+$\begin{equation}
 P(X) = {n \choose x}{p^x}{q^{n-x}} = {8 \choose 5}{(0.75)^5}{(0.25)^{8-5}}
 \\
 =56*0.2373*0.015625 = 0.2076
-\end{equation}$$
+\end{equation}$
 
-$$\text{For Barkha:}
+$\text{For Barkha:}
 \\
-\text{Let x be the number of questions to solve 5. Number of questions he solves(n) is 12. Probability(p) i.e. the correction rate is 0.45.}$$
-$$\begin{equation}
+\text{Let x be the number of questions to solve 5. Number of questions he solves(n) is 12. Probability(p) i.e. the correction rate is 0.45.}$
+$\begin{equation}
 P(X) = {n \choose x}{p^x}{q^{n-x}} = {12 \choose 5}{(0.45)^5}{(0.55)^{12-5}}
 \\
 =792*0.0185*0.015 = 0.223
-\end{equation}$$
+\end{equation}$
 
 
 ```python
@@ -288,36 +285,36 @@ customers arriving in 4 minutes? a) 5 customers, b) not more than 3 customers, c
 more than 3 customers. Give a pictorial representation of the same to validate your
 answer.
 
-$$\text{Formula for poisson's distribution is:}
+$\text{Formula for poisson's distribution is:}
 \begin{equation}
 P(x) = \frac{e^{-\mu}{\mu}^x}{x!}
-\end{equation}\\$$
+\end{equation}\\$
 
-a\) $$\text{Per four minutes the average number of customers is (72/60)*4 which is 4.8.
+a\) $\text{Per four minutes the average number of customers is (72/60)*4 which is 4.8.
 So } \mu \text{ is 4.8.}
 \\
-\text{We need to find the probability for 5 customers in 4 minutes. So x is 5. }$$
-$$\text{Substituting the values to formula we get:}
+\text{We need to find the probability for 5 customers in 4 minutes. So x is 5. }$
+$\text{Substituting the values to formula we get:}
 \begin{equation}
 P(x) = \frac{e^{-4.8}{4.8}^5}{5!} = \frac{0.00823*2548.04}{120} = 0.175
-\end{equation}$$
+\end{equation}$
 
-b\) $$\text{Per four minutes the average number of customers is (72/60)*4 which is 4.8.
+b\) $\text{Per four minutes the average number of customers is (72/60)*4 which is 4.8.
 So } \mu \text{ is 4.8.}
 \\
-\text{We need to find the probability for not more than 3 customers in 4 minutes. So x is 0, 1, 2, 3. }$$
-$$\text{Substituting the values to formula we get:}
+\text{We need to find the probability for not more than 3 customers in 4 minutes. So x is 0, 1, 2, 3. }$
+$\text{Substituting the values to formula we get:}
 \begin{equation}
 P(x_{0})+P(x_{1})+P(x_{2})+P(x_{3}) 
 = \frac{e^{-4.8}{4.8}^0}{0!}+ \frac{e^{-4.8}{4.8}^1}{1!}+\frac{e^{-4.8}{4.8}^2}{2!}+\frac{e^{-4.8}{4.8}^3}{3!} =\frac{0.00823*1}{1}+\frac{0.00823*4.8}{1}+\frac{0.00823*23.04}{2}+\frac{0.00823*110.59}{6}
 = 0.00823+0.0395+0.095+0.152
 = 0.2944
-\end{equation}$$
+\end{equation}$
 
-c\) $$\text{More than 3 customers is:}
+c\) $\text{More than 3 customers is:}
 \begin{equation}:
 1 - P(x_{0})+P(x_{1})+P(x_{2})+P(x_{3}) = 1 - 0.2944 = 0.706
-\end{equation}$$
+\end{equation}$
 
 
 ```python
