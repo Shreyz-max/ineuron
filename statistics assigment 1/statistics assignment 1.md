@@ -297,15 +297,15 @@ So } {\lambda} \text{ is 4.8.}$
 
 $\text{We need to find the probability for not more than 3 customers in 4 minutes. So x is 0, 1, 2, 3. }$
 $\text{Substituting the values to formula we get:}$
-$\text{P(x_{0})+P(x_{1})+P(x_{2})+P(x_{3})}$
+$P(x_{0})+P(x_{1})+P(x_{2})+P(x_{3})$
 
-$\text{= \frac{e^{-4.8}{4.8}^0}{0!}+ \frac{e^{-4.8}{4.8}^1}{1!}+\frac{e^{-4.8}{4.8}^2}{2!}+\frac{e^{-4.8}{4.8}^3}{3!}}$
+$= \frac{e^{-4.8}{4.8}^0}{0!}+ \frac{e^{-4.8}{4.8}^1}{1!}+\frac{e^{-4.8}{4.8}^2}{2!}+\frac{e^{-4.8}{4.8}^3}{3!}}$
 
-$\text{ =\frac{0.00823 * 1}{1}+\frac{0.00823 * 4.8}{1}+\frac{0.00823 * 23.04}{2}+\frac{0.00823 * 110.59}{6}}$
+$= \frac{0.00823 * 1}{1}+\frac{0.00823 * 4.8}{1}+\frac{0.00823 * 23.04}{2}+\frac{0.00823 * 110.59}{6}}$
 
-\text{= 0.00823+0.0395+0.095+0.152}$
+$\text{= 0.00823+0.0395+0.095+0.152}$
 
-\text{= 0.2944}$
+$\text{= 0.2944}$
 
 c\) $\text{More than 3 customers is:}$
 
@@ -482,42 +482,39 @@ c) Find the value of z such that P(−z < Z < z) = 0.99
 
 Using standard normal distriution tables to find the values,
 
-a\) $$
-\begin{equation}
-P(Z > 1.26) = 1 - P(Z < 1.26) = 1 - 0.896 = 0.104
-\\
-P(Z < -0.86) = 0.195
-\\
-P(Z > -1.37) =1 - P(Z < -1.37) = 1 - 0.085 = 0.915
-\\
-P(-1.25 < Z < 0.37) = P(Z < 0.37) - P(Z < -1.25) = 0.644 - 0.106 = 0.538
-\\
-P(Z <= -4.6) = 0
-\end{equation}$$
+a\) $
+\text{P(Z > 1.26) = 1 - P(Z < 1.26) = 1 - 0.896 = 0.104}$
 
-b\)$$
-\begin{equation}
-P(Z > z) = 0.05
-\\
-P(Z < z) = 1-0.05 = 0.95
-\implies z = 1.64
-\end{equation}$$
+$\text{P(Z < -0.86) = 0.195}$
 
-c\) $$\begin{equation}P(-z < Z < z) = 0.99
-    \\
-    P(Z < z) - P(Z < -z) = 0.99
-    \\
-    \text{ Total probability is 1}
-    \\
-    \text{So, } 1 - 0.99 = 0.01
-    \\
-    0.01/2 = 0.005
-    \\
-    P(Z < z)= 0.005
-    \implies z = -2.58
-    \text{So, }
-    \\
-    -2.58 < Z < 2.58\end{equation}$$
+$\text{P(Z > -1.37) =1 - P(Z < -1.37) = 1 - 0.085 = 0.915}$
+
+$\text{P(-1.25 < Z < 0.37) = P(Z < 0.37) - P(Z < -1.25) = 0.644 - 0.106 = 0.538}$
+
+$\text{P(Z <= -4.6) = 0}$
+
+b\)$
+\text{
+P(Z > z) = 0.05}$
+
+$\text{P(Z < z) = 1-0.05 = 0.95}$
+${\implies} \text{z = 1.64}$
+
+c\) $\text{P(-z < Z < z) = 0.99}$
+    
+    $\text{P(Z < z) - P(Z < -z) = 0.99}$
+    
+    $\text{ Total probability is 1}$
+    
+    $\text{So, } 1 - 0.99 = 0.01$
+    
+    $0.01/2 = 0.005$
+    
+    $\text{P(Z < z)= 0.005}$
+    $\implies \text{z = -2.58}$
+    $\text{So, }$
+    
+    $\text{-2.58 < Z < 2.58}$
 
 # Problem Statement 11:
 
