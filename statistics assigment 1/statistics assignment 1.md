@@ -203,18 +203,17 @@ $\text{For Gaurav:}$
 $\text{Let x be the number of questions to solve 5. Number of questions he solves(n) is 8.}$
 
 $\text{Probability(p) i.e. the correction rate is 0.75.}$
-$\text{P(X) = }$ ${n \choose x}{p^x}{q^{n-x}} = } {8 \choose 5}{(0.75)^5}{(0.25)^{8-5}}$
+$\text{P(X) = } {n \choose x}{p^x}{q^{n-x}} =  {8 \choose 5}{(0.75)^5}{(0.25)^{8-5}}$
 
-$\text{=56*0.2373*0.015625 = 0.2076}$
+$\text{=56 * 0.2373 * 0.015625 = 0.2076}$
 
 $\text{For Barkha:}
 \\
 \text{Let x be the number of questions to solve 5. Number of questions he solves(n) is 12. Probability(p) i.e. the correction rate is 0.45.}$
-$\begin{equation}
-P(X) = {n \choose x}{p^x}{q^{n-x}} = {12 \choose 5}{(0.45)^5}{(0.55)^{12-5}}
-\\
-=792*0.0185*0.015 = 0.223
-\end{equation}$
+$\text{P(X) = } {n \choose x}{p^x}{q^{n-x}} = {12 \choose 5}{(0.45)^5}{(0.55)^{12-5}}$
+
+$\text{ =792 * 0.0185 * 0.015 = 0.223}$
+
 
 
 ```python
@@ -364,42 +363,45 @@ How is the λ affected?
 How does it influence the PMF?
 Give a pictorial representation of the same to validate your answer.
 
-$$\text{Formula for poisson's distribution is:}
-\begin{equation}
+$\text{Formula for poisson's distribution is:}$
+$\begin{equation}
 P(x) = \frac{e^{-\lambda}{\lambda}^x}{x!}
-\end{equation}\\$$
+\end{equation}$
 
-$$\text{77 words per minute has 6 errors per hour that is 0.1 errorr per minute. }
-\\
-\text{So a 455 word report will have an average of 0.59 errors. So }{\lambda} 
+$\text{77 words per minute has 6 errors per hour that is 0.1 errorr per minute. }$
+
+$\text{So a 455 word report will have an average of 0.59 errors. So }{\lambda} 
 \text{ is 0.59. We need probability of 2 errors. Hence x is 2.}
-$$
-$$\text{Substituting the values to formula we get:}
-\begin{equation}
-P(x) = \frac{e^{-0.59}{0.59}^2}{2!} = \frac{0.5543*0.3481}{2} = 0.0965
-\end{equation}$$
+$
+$\text{Substituting the values to formula we get:}$
 
-$$\text{77 words per minute has 6 errors per hour that is 0.1 errorr per minute. }
-\\
-\text{So a 1000 word report will have an average of 1.299 errors. So }{\lambda} 
+$\begin{equation}
+P(x) = \frac{e^{-0.59}{0.59}^2}{2!} = \frac{0.5543 * 0.3481}{2} = 0.0965
+\end{equation}$
+
+$\text{77 words per minute has 6 errors per hour that is 0.1 errorr per minute. }$
+
+$\text{So a 1000 word report will have an average of 1.299 errors. So }{\lambda} 
 \text{ is 1.299. We need probability of 2 errors. Hence x is 2.}
-$$
-$$\text{Substituting the values to formula we get:}
-\begin{equation}
-P(x) = \frac{e^{-1.299}{1.299}^2}{2!} = \frac{0.2728*1.6874}{2} = 0.23
-\end{equation}$$
+$
+$\text{Substituting the values to formula we get:}$
 
-$$\text{77 words per minute has 6 errors per hour that is 0.1 errorr per minute. }
-\\
-\text{So a 255 word report will have an average of 0.33 errors. So }{\lambda} 
+$\begin{equation}
+P(x) = \frac{e^{-1.299}{1.299}^2}{2!} = \frac{0.2728 * 1.6874}{2} = 0.23
+\end{equation}$
+
+$\text{77 words per minute has 6 errors per hour that is 0.1 errorr per minute. }$
+
+$\text{So a 255 word report will have an average of 0.33 errors. So }{\lambda} 
 \text{ is 0.33. We need probability of 2 errors. Hence x is 2.}
-$$
-$$\text{Substituting the values to formula we get:}
-\begin{equation}
-P(x) = \frac{e^{-0.33}{0.33}^2}{2!} = \frac{0.7189*0.1089}{2} = 0.04
-\end{equation}$$
+$
+$\text{Substituting the values to formula we get:}$
 
-$$\text{As the number of words in report increase } {\lambda} \text{ that is the expected rate of errors increase.}$$
+$\begin{equation}
+P(x) = \frac{e^{-0.33}{0.33}^2}{2!} = \frac{0.7189 * 0.1089}{2} = 0.04
+\end{equation}$
+
+$\text{As the number of words in report increase } {\lambda} \text{ that is the expected rate of errors increase.}$
 
 
 ```python
