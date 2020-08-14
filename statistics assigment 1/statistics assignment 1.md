@@ -165,8 +165,7 @@ associated with it.
 $\text{Let x be the faulty LEDs which is 2. Here n is 6 and p is 0.3(success i.e. faulty).}$
 $\text{The probability that 2 will be faulty is:}$
 $\text{P(X) = }$ ${n \choose x}{p^x}{q^{n-x}} = {6 \choose 2}{(0.3)^2}{(0.7)^{6-2}}$
-
-$\text{=15*0.09*0.2401 = 0.3241}$
+=15*0.09*0.2401 = 0.3241
 
 $\text{Standard Deviation formula for binomial distribution is: }$ $\sqrt{n*p*(1-p)}$
 
@@ -204,7 +203,7 @@ $\text{For Gaurav:}$
 $\text{Let x be the number of questions to solve 5. Number of questions he solves(n) is 8.}$
 
 $\text{Probability(p) i.e. the correction rate is 0.75.}$
-$\text{P(X) = {n \choose x}{p^x}{q^{n-x}} = } {8 \choose 5}{(0.75)^5}{(0.25)^{8-5}}$
+$\text{P(X) = }$ ${n \choose x}{p^x}{q^{n-x}} = } {8 \choose 5}{(0.75)^5}{(0.25)^{8-5}}$
 
 $\text{=56*0.2373*0.015625 = 0.2076}$
 
