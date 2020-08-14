@@ -297,11 +297,11 @@ So } {\lambda} \text{ is 4.8.}$
 
 $\text{We need to find the probability for not more than 3 customers in 4 minutes. So x is 0, 1, 2, 3. }$
 $\text{Substituting the values to formula we get:}$
-$P(x_{0})+P(x_{1})+P(x_{2})+P(x_{3})$
+$P(x_{0})+P(x_{1})+P(x_{2})+P(x_{3})\end{equation}$
 
-$= \frac{e^{-4.8}{4.8}^0}{0!}+ \frac{e^{-4.8}{4.8}^1}{1!}+\frac{e^{-4.8}{4.8}^2}{2!}+\frac{e^{-4.8}{4.8}^3}{3!}}$
+$= \frac{e^{-4.8}{4.8}^0}{0!}+ \frac{e^{-4.8}{4.8}^1}{1!}+\frac{e^{-4.8}{4.8}^2}{2!}+\frac{e^{-4.8}{4.8}^3}{3!}$
 
-$= \frac{0.00823 * 1}{1}+\frac{0.00823 * 4.8}{1}+\frac{0.00823 * 23.04}{2}+\frac{0.00823 * 110.59}{6}}$
+$= \frac{0.00823 * 1}{1}+\frac{0.00823 * 4.8}{1}+\frac{0.00823 * 23.04}{2}+\frac{0.00823 * 110.59}{6}$
 
 $\text{= 0.00823+0.0395+0.095+0.152}$
 
@@ -501,21 +501,19 @@ $\text{P(Z < z) = 1-0.05 = 0.95}$
 ${\implies} \text{z = 1.64}$
 
 c\) $\text{P(-z < Z < z) = 0.99}$
-    
-    $\text{P(Z < z) - P(Z < -z) = 0.99}$
-    
-    $\text{ Total probability is 1}$
-    
-    $\text{So, } 1 - 0.99 = 0.01$
-    
-    $0.01/2 = 0.005$
-    
-    $\text{P(Z < z)= 0.005}$
-    $\implies \text{z = -2.58}$
-    $\text{So, }$
-    
-    $\text{-2.58 < Z < 2.58}$
+$\text{P(Z < z) - P(Z < -z) = 0.99}$
 
+$\text{ Total probability is 1}$
+    
+$\text{So, } 1 - 0.99 = 0.01$
+$0.01/2 = 0.005$
+
+$P(Z < z)= 0.005$
+
+${\implies} z = -2.58$
+
+$\text{So, }
+    -2.58 < Z < 2.58$
 # Problem Statement 11:
 
 The current flow in a copper wire follow a normal distribution with a mean of 10 mA
