@@ -297,7 +297,7 @@ So } {\lambda} \text{ is 4.8.}$
 
 $\text{We need to find the probability for not more than 3 customers in 4 minutes. So x is 0, 1, 2, 3. }$
 $\text{Substituting the values to formula we get:}$
-$P(x_{0})+P(x_{1})+P(x_{2})+P(x_{3})\end{equation}$
+$P(x_{0})+P(x_{1})+P(x_{2})+P(x_{3})$
 
 $= \frac{e^{-4.8}{4.8}^0}{0!}+ \frac{e^{-4.8}{4.8}^1}{1!}+\frac{e^{-4.8}{4.8}^2}{2!}+\frac{e^{-4.8}{4.8}^3}{3!}$
 
@@ -522,39 +522,40 @@ What is the probability that a current measurement will exceed 13 mA? What is th
 probability that a current measurement is between 9 and 11mA? Determine the
 current measurement which has a probability of 0.98.
 
-$$\text{Mean current is 10 mA}
-\\
-\text{Variance is 4 mA}
-\\
-\text{Standard deviation is $4^{\frac{1}{2}}$ = $2$ mA}
-\\
-\text{Z-score for 13 mA current is}  \frac{13-10}{2} = 1.5
-\\ \text{We need to find P(Z > z)= P(Z > 1.5) = 1 - P(Z < 1.5)}
-\\
-\text{Using tables, we find that P(Z < 1.5) is 0.933. So probability of P(Z > 1.5) is 1 - 0.933 = 0.067.}
-\\
-\text{Probability that a current exceeding 13 mA will flow is 0.33}$$
+$\text{Mean current is 10 mA}$
 
-$$\text{Z-score for 9 mA current is}  \frac{9-10}{2} = -0.5
-\\
-\text{Z-score for 11 mA current is}  \frac{11-10}{2} = 0.5
-\\ 
-\text{We need to find P(-0.5< Z < 0.5)}
-\\
-= P(Z < 0.5) - P(Z < -0.5) = 0.691 - 0.309 = 0.382 \approx 0.38$$
+$\text{Variance is 4 mA}$
 
-$$\text{P(Z < z) = 0.98}
-\\
-\text{We need to find z.}
-\\
-\text{Using tables, z comes around 2.05}
-\\
-\text{z =} \frac{x-\mu}{\sigma} 
-\implies x = z*{\sigma} + {\mu}
-\\
-\text{Z-Score is 2.05, x(current equivalent of z) is:}
-\\2.05*2 + 10 = 4.1 + 10 = 14.1 mA
-$$
+$\text{Standard deviation is $4^{\frac{1}{2}}$ = $2$ mA}$
+
+$\text{Z-score for 13 mA current is}  \frac{13-10}{2} = 1.5$
+
+$\text{We need to find P(Z > z)= P(Z > 1.5) = 1 - P(Z < 1.5)}$
+
+$\text{Using tables, we find that P(Z < 1.5) is 0.933. So probability of P(Z > 1.5) is 1 - 0.933 = 0.067.}$
+
+$\text{Probability that a current exceeding 13 mA will flow is 0.33}$
+
+$\text{Z-score for 9 mA current is}  \frac{9-10}{2} = -0.5$
+
+$\text{Z-score for 11 mA current is}  \frac{11-10}{2} = 0.5$
+ 
+$\text{We need to find P(-0.5< Z < 0.5)}$
+
+$= P(Z < 0.5) - P(Z < -0.5) = 0.691 - 0.309 = 0.382 \approx 0.38$
+
+$\text{P(Z < z) = 0.98}$
+
+$\text{We need to find z.}$
+
+$\text{Using tables, z comes around 2.05}$
+
+$\text{z =} \frac{x-\mu}{\sigma}$ 
+${\implies} x = z*{\sigma} + {\mu}$
+
+$\text{Z-Score is 2.05, x(current equivalent of z) is:}$
+$2.05*2 + 10 = 4.1 + 10 = 14.1 mA$
+
 
 # Problem Statement 12:
 
@@ -565,30 +566,30 @@ process is centered so that the mean is equal to the target value of 0.2500, wha
 proportion of shafts conform to the new specifications? What is your conclusion from
 this experiment?
 
-$$\text{Mean diameter is 0.2508 inch}
-\\
-\text{Standard deviation is 0.0005 inch}
-\\
-\text{Z-score for (0.2500 - 0.0015) 0.2485 is } \frac{0.2485-0.2508}{0.0005} = -4.6
-\\
-\text{Z-score for (0.2500 + 0.0015) 0.2515 is} \frac{0.2515-0.2508}{0.0005} = 1.4
-\\
-\text{We need to find P(-4.6< Z < 1.4)}
-\\
-= P(Z < 1.4) - P(Z < -4.6) =  0.92.
-\\
-\text{So, 0.92 of the shafts are in sync}$$
+$\text{Mean diameter is 0.2508 inch}$
 
-$$\text{If mean is 0.2500 then, }
-\text{Z-score for (0.2500 - 0.0015) 0.2485 is } \frac{0.2485-0.2500}{0.0005} = -3
-\\
-\text{Z-score for (0.2500 + 0.0015) 0.2515 is} \frac{0.2515-0.2500}{0.0005} = 3
-\\
-\text{We need to find P(-3< Z < 3)}
-\\
-= P(Z < 3) - P(Z < -3) = 0.9973.
-\\
-\text{So, 0.997 of the shafts are in sync}
-$$
+$\text{Standard deviation is 0.0005 inch}$
+
+$\text{Z-score for (0.2500 - 0.0015) 0.2485 is } \frac{0.2485-0.2508}{0.0005} = -4.6$
+
+$\text{Z-score for (0.2500 + 0.0015) 0.2515 is} \frac{0.2515-0.2508}{0.0005} = 1.4$
+
+$\text{We need to find P(-4.6< Z < 1.4)}$
+
+$= P(Z < 1.4) - P(Z < -4.6) =  0.92.$
+
+$\text{So, 0.92 of the shafts are in sync}$
+
+$\text{If mean is 0.2500 then, }
+\text{Z-score for (0.2500 - 0.0015) 0.2485 is } \frac{0.2485-0.2500}{0.0005} = -3$
+
+$\text{Z-score for (0.2500 + 0.0015) 0.2515 is} \frac{0.2515-0.2500}{0.0005} = 3$
+
+$\text{We need to find P(-3< Z < 3)}$
+
+$= P(Z < 3) - P(Z < -3) = 0.9973.$
+
+$\text{So, 0.997 of the shafts are in sync}$
+
 <h3>Conclusion</h3>
 <p>So if we change the mean from 0.2508 to 0.2500 the proportion of shaft increases from 92% to 99.73% </p>
