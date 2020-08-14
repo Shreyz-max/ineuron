@@ -14,9 +14,12 @@ $\text{Formula for mean is} \sum_{i=1}^{n} i
 \text{Formula for median is:} \frac{n+1}{2}^{th} \text{ term if number of observation is }\textbf{odd}\text{ and}\\
                               \frac{1}{2}(\frac{n}{2}^{th}+\frac{n+1}{2}^{th})\text{ term if number of observation is} \textbf{even.}
 \\
+
 \text{A number that appears most often is the}\textbf{ mode.}
 \\
+
 \text{Formula for standard deviation is }=\sqrt{\frac{1}{N}\sum_{i=1}^N(x_i-\bar{x})^2}
+
 \\
 \text{Formula for mean here is} \sum_{i=1}^{20} i
 \text{ where i is in the dataset {6, 7, 5, 7, 7, 8, 7, 6, 9, 7, 4, 10, 6, 8, 8, 9, 5, 6, 4, 8}}$
