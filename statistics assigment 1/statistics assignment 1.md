@@ -148,7 +148,7 @@ $\begin{equation} F(x)= \int_{12.5}^x 20e^{-20(u-12.5)} du = 1 - e^{-20(x-12.5)}
 
 $\begin{equation}
   F(x)=
-    0, & \text{if $x<12.5$ and}  1-e^{-20(x-12.5)}, & \text{for x>=12.5}\end{equation}$
+    0, \text{if $x<12.5$ and}  1-e^{-20(x-12.5)}, \text{for x>=12.5}\end{equation}$
  
   $\text{where F(x) is P(12.5 < X < x)}$
 
