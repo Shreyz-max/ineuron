@@ -165,9 +165,9 @@ associated with it.
 $\text{Let x be the faulty LEDs which is 2. Here n is 6 and p is 0.3(success i.e. faulty).}$
 $\text{The probability that 2 will be faulty is:}$
 $\text{P(X) = }$ ${n \choose x}{p^x}{q^{n-x}} = {6 \choose 2}{(0.3)^2}{(0.7)^{6-2}}$
-=15*0.09*0.2401 = 0.3241
+=15 * 0.09 * 0.2401 = 0.3241
 
-$\text{Standard Deviation formula for binomial distribution is: }$ $\sqrt{n*p*(1-p)}$
+$\text{Standard Deviation formula for binomial distribution is: } \sqrt{n*p*(1-p)}$
 
 
 ```python
