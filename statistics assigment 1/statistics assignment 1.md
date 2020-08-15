@@ -63,7 +63,7 @@ $\text{A number that appears most often is the}\textbf{ mode.}$
 
 $\text{Formula for standard deviation is }=\sqrt{\frac{1}{N}\sum_{i=1}^N(x_i-\bar{x})^2}$
 
-$\text{Formula for mean here is} \sum_{i=1} i$
+$\text{Formula for mean here is} \sum_{i=1}^{n} i$
 $\text{ where i is in the dataset}$
 $\text{{28, 122, 217, 130, 120, 86, 80, 90, 140, 120, 70, 40, 145,
 113, 90, 68, 174, 194, 170, 100, 75, 104, 97, 75, 123, 100, 75, 104, 97, 75, 123, 100, 89, 120, 109}}$
