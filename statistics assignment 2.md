@@ -172,8 +172,8 @@ $\text{Since test statistic does not lie in the rejection region we will not rej
 
 In a report prepared by the Economic Research Department of a major bank the
 Department manager maintains that the average annual family income on Metropolis
-is $\char36 48,432$. What do you conclude about the validity of the report if a random sample
-of 400 families shows and average income of $\char 36 48,574$ with a standard deviation of
+is 48,432 dollars. What do you conclude about the validity of the report if a random sample
+of 400 families shows and average income of 48,574 dollars with a standard deviation of
 2000?
 
 $\underline{Hypothesis:}$
@@ -216,10 +216,10 @@ $\text{Since Z(test) < Z(0.95) we cannot reject the null hypothesis }H_{0} \text
 # Problem Statement 6:
 
 Suppose that in past years the average price per square foot for warehouses in the
-United States has been $\char36 32.28$. A national real estate investor wants to determine
+United States has been 32.28 dollars. A national real estate investor wants to determine
 whether that figure has changed now. The investor hires a researcher who randomly
 samples 19 warehouses that are for sale across the United States and finds that the
-mean price per square foot is $\char36 31.67$, with a standard deviation of $\char36 1.29$. assume
+mean price per square foot is6 31.67 dollar, with a standard deviation of 1.29 dollar. assume
 that the prices of warehouse footage are normally distributed in population. If the
 researcher uses a 5% level of significance, what statistical conclusion can be
 reached? What are the hypotheses?
@@ -824,13 +824,13 @@ $\text{Probability that a person did not vote P(NV): }\frac{3617}{10000} \text{=
   </tr>
   <tr>
     <th>Voted</th>
-    <td>P(V) \* Total Men = <b>2730.65</b></td>
-    <td>P(V) \* Total women = <b>3652.35</b></td>
+    <td>P(V) * Total Men = <b>2730.65</b></td>
+    <td>P(V) * Total women = <b>3652.35</b></td>
   </tr>
   <tr>
     <th>Not Voted</th>
-    <td>P(NV) \* Total Men = <b>1547.35</b></td>
-    <td>P(NV) \* Total Women = <b>2069.65 </b></td>
+    <td>P(NV) * Total Men = <b>1547.35</b></td>
+    <td>P(NV) * Total Women = <b>2069.65 </b></td>
   </tr>
  </table>
  
@@ -1159,13 +1159,13 @@ $\text{Probability for no suport P(NS): }\frac{50}{100} \text{= 0.5}$
     </tr>
     <tr>
         <th>Conform</th>
-        <td>29</td>
-        <td>29</td>
+        <td>P(S) * 58 = <b>29</b></td>
+        <td>P(NS) * 58 = <b>29</b></td>
     </tr>
     <tr>
         <th>Not Conform</th>
-        <td>21</td>
-        <td>21</td>
+        <td>P(S) * 42 = <b>21</b></td>
+        <td>P(NS) * 42 = <b>21</b></td>
     </tr>
 </table>
 
@@ -1232,6 +1232,7 @@ $\underline{Significance}$
 
 <li>$ \alpha = 0.01$
 
+
 <table style="width:70%">
 <caption style="text-align:center">Observed Counts</caption>
  <tr> 
@@ -1287,18 +1288,18 @@ $\text{Probability of being unclassifiable P(U): }\frac{15}{95} \text{= 0.16}$
  </tr>
  <tr>
   <th>Leader</th>
-  <td>P(L) \* 43 = <b>19.92</b></td>
-  <td>P(L) \* 52= <b>24.08</b></td>
+  <td>P(L) * 43 = <b>19.92</b></td>
+  <td>P(L) * 52= <b>24.08</b></td>
  </tr>
  <tr>
   <th>Follower</th>
-  <td>P(F) \* 43 = <b>16.29</b></td>
-  <td>P(F) \* 52 = <b>19.71</b></td>
+  <td>P(F) * 43 = <b>16.29</b></td>
+  <td>P(F) * 52 = <b>19.71</b></td>
  </tr>
  <tr>
   <th>Unclassifiable</th>
-  <td>P(U) \* 43 = <b>6.79</b></td>
-  <td>P(U) \* 52 = <b>8.21</b></td>
+  <td>P(U) * 43 = <b>6.79</b></td>
+  <td>P(U) * 52 = <b>8.21</b></td>
  </tr>
 </table>
 
@@ -1367,7 +1368,7 @@ $\underline{Significance}\text{ (Since no value is given we shall assume signifi
 
 
 <table style="width:70%">
-<caption style="text-align:center">Observed Counts</caption>
+<caption style="text-align:left">Observed Counts</caption>
     <tr>
         <th></th>
         <th>Married</th>
@@ -1421,21 +1422,21 @@ $\text{Probability of not being in labour force P(N): }\frac{15}{95} \text{= 0.0
     </tr>
     <tr>
         <th>Employed</th>
-        <td>654.06</td>
-        <td>109.29</td>
-        <td>132.65</td>
+        <td>P(E) * 784 = <b>654.06</b></td>
+        <td>P(E) * 131 = <b>109.29</b></td>
+        <td>P(E) * 159 = <b>132.65</b></td>
     </tr>
     <tr>
         <th>Unemployed</th>
-        <td>67.89</td>
-        <td>11.34</td>
-        <td>13.77</td>
+        <td>P(UE) * 784 = <b>67.89</b></td>
+        <td>P(UE) * 131 = <b>11.34</b></td>
+        <td>P(UE) * 159 = <b>13.77</b></td>
     </tr>
     <tr>
         <th>Not in labour force</th>
-        <td>62.05</td>
-        <td>10.37</td>
-        <td>12.58</td>
+        <td>P(N) * 784 = <b>62.05</b></td>
+        <td>P(N) * 131 = <b>10.37</b></td>
+        <td>P(N) * 159 = <b>12.58</b></td>
     </tr>
 </table>
 
