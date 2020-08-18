@@ -50,7 +50,8 @@ $\underline{Significance}$
 
 $ \alpha = 0.05$
 
-$\text{Formula for test statistic is: }\begin{equation}
+$\text{Formula for test statistic is: }$
+$\begin{equation}
 z = \frac{\bar{x} − \mu}{\frac{\sigma}{\sqrt{n}}}\end{equation}$
 
 $\begin{equation}
