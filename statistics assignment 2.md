@@ -172,8 +172,8 @@ $\text{Since test statistic does not lie in the rejection region we will not rej
 
 In a report prepared by the Economic Research Department of a major bank the
 Department manager maintains that the average annual family income on Metropolis
-is $48,432. What do you conclude about the validity of the report if a random sample
-of 400 families shows and average income of $48,574 with a standard deviation of
+is $\$48,432$. What do you conclude about the validity of the report if a random sample
+of 400 families shows and average income of $\$48,574$ with a standard deviation of
 2000?
 
 $\underline{Hypothesis:}$
@@ -216,10 +216,10 @@ $\text{Since Z(test) < Z(0.95) we cannot reject the null hypothesis }H_{0} \text
 # Problem Statement 6:
 
 Suppose that in past years the average price per square foot for warehouses in the
-United States has been $32.28. A national real estate investor wants to determine
+United States has been $\$32.28$. A national real estate investor wants to determine
 whether that figure has changed now. The investor hires a researcher who randomly
 samples 19 warehouses that are for sale across the United States and finds that the
-mean price per square foot is $31.67, with a standard deviation of $1.29. assume
+mean price per square foot is $\$31.67$, with a standard deviation of $\$1.29$. assume
 that the prices of warehouse footage are normally distributed in population. If the
 researcher uses a 5% level of significance, what statistical conclusion can be
 reached? What are the hypotheses?
@@ -363,7 +363,8 @@ $\text{Formula for standard error(SE) = }\sqrt{\frac{s_{1}^{2}}{n_{1}} + \frac{s
 
 $\begin{equation} SE = \sqrt{\frac{212^{2}}{1200} + \frac{185^{2}}{800}} = 8.96\end{equation}$
 
-$\text{Formula for z is: }$$\frac{(\bar{x}_{1} - \bar{x}_{2}) - (\mu_{1} - \mu_{2})}{SE}$
+$\text{Formula for z is: }$
+$\begin{equation}\frac{(\bar{x}_{1} - \bar{x}_{2}) - (\mu_{1} - \mu_{2})}{SE}\end{equation}$
 
 $\text{Since null hypothesis says }\mu_{1} = \mu_{2} \text{ So,}$
 
@@ -423,11 +424,12 @@ $\text{Formula for standard error(SE) = }\sqrt{\frac{s_{1}^{2}}{n_{1}} + \frac{s
 
 $\begin{equation} SE = \sqrt{\frac{84^{2}}{100} + \frac{67^{2}}{100}} = 10.745\end{equation}$
 
-$\text{Formula for z is: }$$\frac{(\bar{x}_{1} - \bar{x}_{2}) - (\mu_{1} - \mu_{2})}{SE}$
+$\text{Formula for z is: }$
+$\begin{equation}\frac{(\bar{x_{1}} - \bar{x_{2}}) - (\mu_{1} - \mu_{2})}{SE}\end{equation}$
 
 $\text{Since null hypothesis says }\mu_{1} = \mu_{2} \text{ So,}$
 
-$\begin{equation}z = \frac{\bar{x}_{1} - \bar{x}_{2}}{SE}\end{equation}$
+$\begin{equation}z = \frac{\bar{x_{1}} - \bar{x_{2}}}{SE}\end{equation}$
 
 $\begin{equation}z = \frac{308 - 254}{10.745} = 5.03\end{equation}$
 
@@ -490,11 +492,12 @@ $\text{Formula for standard error(SE) = }\sqrt{s_{p}(\frac{1}{n_{1}} + \frac{1}{
 
 $\begin{equation}\sqrt{0.0135(\frac{1}{14} + \frac{1}{9})} = 0.05\end{equation}$
 
-$\text{Formula for test statistic is: }\frac{(\bar{x}_{1} - \bar{x}_{2}) - (\mu_{1} - \mu_{2})}{SE}$
+$\text{Formula for test statistic is: }$
+$\begin{equation}\frac{(\bar{x_{1}} - \bar{x_{2}}) - (\mu_{1} - \mu_{2})}{SE}\end{equation}$
 
 $\text{Since null hypothesis says }\mu_{1} - \mu_{2} = 0\text{ So,}$
 
-$\begin{equation}t = \frac{\bar{x}_{1} - \bar{x}_{2}}{SE}\end{equation}$
+$\begin{equation}t = \frac{\bar{x_{1}} - \bar{x_{2}}}{SE}\end{equation}$
 
 $\begin{equation}t = \frac{0.317 - 0.21}{0.05} = 2.154\end{equation}$
 
@@ -558,11 +561,11 @@ $\text{Formula for standard error(SE) = }\sqrt{s_{p}(\frac{1}{n_{1}} + \frac{1}{
 
 $\begin{equation}\sqrt{595835(\frac{1}{15} + \frac{1}{12})} = 298.96\end{equation}$
 
-$\text{Formula for test statistic is: }\frac{(\bar{x}_{1} - \bar{x}_{2}) - (\mu_{1} - \mu_{2})}{SE}$
+$\text{Formula for test statistic is: }\frac{(\bar{x_{1}} - \bar{x_{2}}) - (\mu_{1} - \mu_{2})}{SE}$
 
 $\text{Since null hypothesis says }\mu_{1} - \mu_{2} = 0\text{ So,}$
 
-$\begin{equation}t = \frac{\bar{x}_{1} - \bar{x}_{2}}{SE}\end{equation}$
+$\begin{equation}t = \frac{\bar{x_{1}} - \bar{x_{2}}}{SE}\end{equation}$
 
 $\begin{equation}t = \frac{6598 - 6870}{298.96} = 0.91\end{equation}$
 
@@ -611,7 +614,7 @@ $\underline{Parameters:}$
 
 <li>$ {x}_{2} = 43$
 
-$\text{Formula for }\hat{p} = \frac{{x}_{1} + {x}_{2}}{{n}_{1} + {n}_{2}}$
+$\text{Formula for }\hat{p} = \frac{x_{1} + x_{2}}{n_{1} + n_{2}}$
 
 $\begin{equation}\frac{53 + 43}{100 + 100} = 0.48 \end{equation}$
 
@@ -776,9 +779,9 @@ having voted in the last election (rows). In other words, is “gender and votin
 
 $\underline{Hypothesis:}$
 
-<li>$ \text{Null Hypothesis } H_{0} \text{voting is independent of gender.}$
+<li>$ \text{Null Hypothesis } H_{0} \text{ voting is independent of gender.}$
 
-<li>$ \text{Alternate Hypothesis }H_{A} \text{voting is dependent on gender.}$
+<li>$ \text{Alternate Hypothesis }H_{A} \text{ voting is dependent on gender.}$
 
 <table style="width:40%">
   <caption style="text-align:center">Observed Counts</caption>
@@ -808,9 +811,9 @@ $\underline{Hypothesis:}$
   </tr>
  </table>
  
-$\text{Probability that a person voted P(V): }\frac{6383}{10000} \text{= 0.6383}
-\\
-\text{Probability that a person did not vote P(NV): }\frac{3617}{10000} \text{= 0.3617}$
+$\text{Probability that a person voted P(V): }\frac{6383}{10000} \text{= 0.6383}$
+
+$\text{Probability that a person did not vote P(NV): }\frac{3617}{10000} \text{= 0.3617}$
 
  <table style="width:40%">
   <caption style="text-align:center">Expected Counts</caption>
@@ -833,7 +836,7 @@ $\text{Probability that a person voted P(V): }\frac{6383}{10000} \text{= 0.6383}
  
 $\chi^{2} = \sum{\frac{(Observed − Expected)^{2}}{Expected}}$
 
-$\quad \quad \quad \quad Voted \quad \quad \quad \quad \quad \quad \quad \quad \quad \text{Not Voted}$
+$\quad \quad \quad \quad Voted \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \text{Not Voted}$
 
 $ \quad \quad Men \quad \quad \quad Women \quad \quad \quad \quad Men \quad \quad \quad Women$
 
@@ -870,9 +873,9 @@ with 3 df, p 0.05 .
 
 $\underline{Hypothesis:}$
 
-<li>$ \text{Null Hypothesis } H_{0} \text{all the candidates are equally popular.}$
+<li>$ \text{Null Hypothesis } H_{0} \text{ all the candidates are equally popular.}$
 
-<li>$ \text{Alternate Hypothesis }H_{A} \text{all candidates are not equally popular.}$
+<li>$ \text{Alternate Hypothesis }H_{A} \text{ all candidates are not equally popular.}$
 
 $\underline{Parameters}$
 
@@ -963,9 +966,9 @@ df: p < 0.05].
 
 $\underline{Hypothesis:}$
 
-<li>$ \text{Null Hypothesis } H_{0} \text{there is no relationship between age and photo preference.}$
+<li>$ \text{Null Hypothesis } H_{0} \text{ there is no relationship between age and photo preference.}$
 
-<li>$ \text{Alternate Hypothesis }H_{A} \text{there is a relationship between age and photo preference.}$
+<li>$ \text{Alternate Hypothesis }H_{A} \text{ there is a relationship between age and photo preference.}$
 
 $\underline{Parameters}$
 
@@ -1019,11 +1022,11 @@ $\underline{Significance}$
 
 
 
-$\text{Probability that photo A is selected P(A): }\frac{40}{200} \text{= 0.2}
-\\
-\text{Probability that photo B is selected P(B): }\frac{60}{200} \text{= 0.3}
-\\
-\text{Probability that photo C is selected P(C): }\frac{100}{200} \text{= 0.5}$
+$\text{Probability that photo A is selected P(A): }\frac{40}{200} \text{= 0.2}$
+
+$\text{Probability that photo B is selected P(B): }\frac{60}{200} \text{= 0.3}$
+
+$\text{Probability that photo C is selected P(C): }\frac{100}{200} \text{= 0.5}$
 
 
 <table style="width:70%">
@@ -1102,9 +1105,9 @@ p < 0.05].
 
 $\underline{Hypothesis:}$
 
-<li>$ \text{Null Hypothesis } H_{0} \text{there is no difference between support and no support conditions.}$
+<li>$ \text{Null Hypothesis } H_{0} \text{ there is no difference between support and no support conditions.}$
 
-<li>$ \text{Alternate Hypothesis }H_{A} \text{there is a difference between support and no support conditions.}$
+<li>$ \text{Alternate Hypothesis }H_{A} \text{ there is a difference between support and no support conditions.}$
 
 $\underline{Parameters}$
 
@@ -1143,9 +1146,9 @@ $\underline{Significance}$
     </tr>
 </table>
 
-$\text{Probability for support P(S): }\frac{50}{100} \text{= 0.5}
-\\
-\text{Probability for no suport P(NS): }\frac{50}{100} \text{= 0.5}$
+$\text{Probability for support P(S): }\frac{50}{100} \text{= 0.5}$
+
+$\text{Probability for no suport P(NS): }\frac{50}{100} \text{= 0.5}$
 
 <table style="width:70%">
 <caption style="text-align:center">Expected Counts</caption>
@@ -1266,11 +1269,11 @@ $\underline{Significance}$
  </tr>
 </table>
 
-$\text{Probability of being a leader P(L): }\frac{44}{95} \text{= 0.46}
-\\
-\text{Probability of being a follower P(F): }\frac{36}{95} \text{= 0.38}
-\\
-\text{Probability of being unclassifiable P(U): }\frac{15}{95} \text{= 0.16}$
+$\text{Probability of being a leader P(L): }\frac{44}{95} \text{= 0.46}$
+
+$\text{Probability of being a follower P(F): }\frac{36}{95} \text{= 0.38}$
+
+$\text{Probability of being unclassifiable P(U): }\frac{15}{95} \text{= 0.16}$
 
 <table style="width:70%">
 <caption style="text-align:center">Expected Counts</caption>
@@ -1350,9 +1353,9 @@ sample.)
 
 $\underline{Hypothesis:}$
 
-<li>$ \text{Null Hypothesis } H_{0} \text{there is no relationship between marital status and labour force status.}$
+<li>$ \text{Null Hypothesis } H_{0} \text{ there is no relationship between marital status and labour force status.}$
 
-<li>$ \text{Alternate Hypothesis }H_{A} \text{there is a relationship between marital status and labour force status.}$
+<li>$ \text{Alternate Hypothesis }H_{A} \text{ there is a relationship between marital status and labour force status.}$
 
 $\underline{Parameters}$
 
@@ -1402,11 +1405,11 @@ $\underline{Significance}\text{ (Since no value is given we shall assume signifi
     </tr>
 </table>
 
-$\text{Probability of being employed P(E): }\frac{896}{1074} \text{= 0.83}
-\\
-\text{Probability of being unemployed P(U): }\frac{63}{1074} \text{= 0.09}
-\\
-\text{Probability of not being in labour force P(N): }\frac{15}{95} \text{= 0.08}$
+$\text{Probability of being employed P(E): }\frac{896}{1074} \text{= 0.83}$
+
+$\text{Probability of being unemployed P(U): }\frac{63}{1074} \text{= 0.09}$
+
+$\text{Probability of not being in labour force P(N): }\frac{15}{95} \text{= 0.08}$
 
 <table style="width:50%">
 <caption style="text-align:center">Expected Counts</caption>
