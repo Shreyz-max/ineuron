@@ -172,8 +172,8 @@ $\text{Since test statistic does not lie in the rejection region we will not rej
 
 In a report prepared by the Economic Research Department of a major bank the
 Department manager maintains that the average annual family income on Metropolis
-is $\$48,432$. What do you conclude about the validity of the report if a random sample
-of 400 families shows and average income of $\$48,574$ with a standard deviation of
+is $\char36 48,432$. What do you conclude about the validity of the report if a random sample
+of 400 families shows and average income of $\char 36 48,574$ with a standard deviation of
 2000?
 
 $\underline{Hypothesis:}$
@@ -216,10 +216,10 @@ $\text{Since Z(test) < Z(0.95) we cannot reject the null hypothesis }H_{0} \text
 # Problem Statement 6:
 
 Suppose that in past years the average price per square foot for warehouses in the
-United States has been $\$32.28$. A national real estate investor wants to determine
+United States has been $\char36 32.28$. A national real estate investor wants to determine
 whether that figure has changed now. The investor hires a researcher who randomly
 samples 19 warehouses that are for sale across the United States and finds that the
-mean price per square foot is $\$31.67$, with a standard deviation of $\$1.29$. assume
+mean price per square foot is $\char36 31.67$, with a standard deviation of $\char36 1.29$. assume
 that the prices of warehouse footage are normally distributed in population. If the
 researcher uses a 5% level of significance, what statistical conclusion can be
 reached? What are the hypotheses?
@@ -364,11 +364,11 @@ $\text{Formula for standard error(SE) = }\sqrt{\frac{s_{1}^{2}}{n_{1}} + \frac{s
 $\begin{equation} SE = \sqrt{\frac{212^{2}}{1200} + \frac{185^{2}}{800}} = 8.96\end{equation}$
 
 $\text{Formula for z is: }$
-$\begin{equation}\frac{(\bar{x}_{1} - \bar{x}_{2}) - (\mu_{1} - \mu_{2})}{SE}\end{equation}$
+$\begin{equation}\frac{(\bar{x_{1}} - \bar{x_{2}}) - (\mu_{1} - \mu_{2})}{SE}\end{equation}$
 
 $\text{Since null hypothesis says }\mu_{1} = \mu_{2} \text{ So,}$
 
-$\begin{equation}z = \frac{\bar{x}_{1} - \bar{x}_{2}}{SE}\end{equation}$
+$\begin{equation}z = \frac{\bar{x_{1}} - \bar{x_{2}}}{SE}\end{equation}$
 
 $\begin{equation}z = \frac{452 - 523}{8.96} = -7.92\end{equation}$
 
@@ -1042,21 +1042,21 @@ $\text{Probability that photo C is selected P(C): }\frac{100}{200} \text{= 0.5}$
  </tr>
  <tr>
   <th>5-6 years</th>
-  <td>P(A) \* 60 = <b>12</b></td>
-  <td>P(B) \* 60 = <b>18</b></td>
-  <td>P(C) \* 60 = <b>30</b></td>
+  <td>P(A) * 60 = <b>12</b></td>
+  <td>P(B) * 60 = <b>18</b></td>
+  <td>P(C) * 60 = <b>30</b></td>
  </tr>
  <tr>
   <th>7-8 years</th>
-  <td>P(A) \* 70 = <b>14</b></td>
-  <td>P(B) \* 70 = <b>21</b></td>
-  <td>P(C) \* 70 = <b>35</b></td>
+  <td>P(A) * 70 = <b>14</b></td>
+  <td>P(B) * 70 = <b>21</b></td>
+  <td>P(C) * 70 = <b>35</b></td>
  </tr>
  <tr>
   <th>9-10 years</th>
-  <td>P(A) \* 70 = <b>14</b></td>
-  <td>P(B) \* 70 = <b>21</b></td>
-  <td>P(C) \* 70 = <b>21</b></td>
+  <td>P(A) * 70 = <b>14</b></td>
+  <td>P(B) * 70 = <b>21</b></td>
+  <td>P(C) * 70 = <b>21</b></td>
   </tr>
 </table>
 
