@@ -96,7 +96,8 @@ $\underline{Significance}$
 
 $ \alpha = 0.01$
 
-$\text{Formula for test statistic is: }\begin{equation}
+$\text{Formula for test statistic is: }$
+$\begin{equation}
 z = \frac{\bar{x} − \mu}{\frac{\sigma}{\sqrt{n}}}\end{equation}$
 
 $\begin{equation}
@@ -152,7 +153,8 @@ $\underline{Significance}$
 
 $ \alpha = 0.05$
 
-$\text{Formula for test statistic is: }\begin{equation}
+$\text{Formula for test statistic is: }$
+$\begin{equation}
 t = \frac{\bar{x} − \mu}{\frac{s}{\sqrt{n}}}\end{equation}$
 
 $\begin{equation}
@@ -170,7 +172,7 @@ $\text{Since test statistic does not lie in the rejection region we will not rej
 
 In a report prepared by the Economic Research Department of a major bank the
 Department manager maintains that the average annual family income on Metropolis
-is \$48,432. What do you conclude about the validity of the report if a random sample
+is $48,432. What do you conclude about the validity of the report if a random sample
 of 400 families shows and average income of $48,574 with a standard deviation of
 2000?
 
@@ -196,7 +198,8 @@ $\underline{Significance}$
 
 $ \alpha = 0.05$
 
-$\text{Formula for test statistic is: }\begin{equation}
+$\text{Formula for test statistic is: }$
+$\begin{equation}
 z = \frac{\bar{x} − \mu}{\frac{s}{\sqrt{n}}}\end{equation}$
 
 $\begin{equation}
@@ -213,10 +216,10 @@ $\text{Since Z(test) < Z(0.95) we cannot reject the null hypothesis }H_{0} \text
 # Problem Statement 6:
 
 Suppose that in past years the average price per square foot for warehouses in the
-United States has been \$32.28. A national real estate investor wants to determine
+United States has been $32.28. A national real estate investor wants to determine
 whether that figure has changed now. The investor hires a researcher who randomly
 samples 19 warehouses that are for sale across the United States and finds that the
-mean price per square foot is \$31.67, with a standard deviation of \$1.29. assume
+mean price per square foot is $31.67, with a standard deviation of $1.29. assume
 that the prices of warehouse footage are normally distributed in population. If the
 researcher uses a 5% level of significance, what statistical conclusion can be
 reached? What are the hypotheses?
@@ -244,7 +247,8 @@ $\underline{Significance}$
 
 $ \alpha = 0.05$
 
-$\text{Formula for test statistic is: }\begin{equation}
+$\text{Formula for test statistic is: }$
+$\begin{equation}
 t = \frac{\bar{x} − \mu}{\frac{s}{\sqrt{n}}}\end{equation}$
 
 $\begin{equation}
@@ -277,7 +281,8 @@ $\underline{Parameters:}$
 
 <li>$ \text{Degrees of freedom} = 16 - 1 = 15 $
 
-$\text{Formula for test statistic is: }\begin{equation}
+$\text{Formula for test statistic is: }$
+$\begin{equation}
 t = \frac{\bar{x} − \mu}{\frac{s}{\sqrt{n}}}\end{equation}$
 
 $\begin{equation}
@@ -358,7 +363,7 @@ $\text{Formula for standard error(SE) = }\sqrt{\frac{s_{1}^{2}}{n_{1}} + \frac{s
 
 $\begin{equation} SE = \sqrt{\frac{212^{2}}{1200} + \frac{185^{2}}{800}} = 8.96\end{equation}$
 
-$\text{Formula for z is: }\frac{(\bar{x}_{1} - \bar{x}_{2}) - (\mu_{1} - \mu_{2})}{SE}$
+$\text{Formula for z is: }$$\frac{(\bar{x}_{1} - \bar{x}_{2}) - (\mu_{1} - \mu_{2})}{SE}$
 
 $\text{Since null hypothesis says }\mu_{1} = \mu_{2} \text{ So,}$
 
@@ -418,7 +423,7 @@ $\text{Formula for standard error(SE) = }\sqrt{\frac{s_{1}^{2}}{n_{1}} + \frac{s
 
 $\begin{equation} SE = \sqrt{\frac{84^{2}}{100} + \frac{67^{2}}{100}} = 10.745\end{equation}$
 
-$\text{Formula for z is: }\frac{(\bar{x}_{1} - \bar{x}_{2}) - (\mu_{1} - \mu_{2})}{SE}$
+$\text{Formula for z is: }$$\frac{(\bar{x}_{1} - \bar{x}_{2}) - (\mu_{1} - \mu_{2})}{SE}$
 
 $\text{Since null hypothesis says }\mu_{1} = \mu_{2} \text{ So,}$
 
