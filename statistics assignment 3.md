@@ -54,13 +54,13 @@ voters in the second state than in the first state?
 
 $\underline{Parameters:}$
 
-<li>$ P_{1} \text{proportion of republicans in first state= 0.52}$
+<li>$ P_{1} \text{ proportion of republicans in first state= 0.52}$
 
-<li>$ P_{2} \text{proportion of republicans in second state= 0.47}$
+<li>$ P_{2} \text{ proportion of republicans in second state= 0.47}$
 
-<li>$ p_{1} \text{is sample proportion of republicans in first state}$
+<li>$ p_{1} \text{ is sample proportion of republicans in first state}$
 
-<li>$ p_{2} \text{is sample proportion of republicans in second state}$
+<li>$ p_{2} \text{ is sample proportion of republicans in second state}$
 
 <li>$ \text{Mean sample differnce = 0.52 − 0.47 = 0.05}$ 
 
