@@ -96,13 +96,13 @@ $\underline{Significance}$
   </tr>
  </table>
 
-$\text{Probability that a person completed high school P(HS): }\frac{100}{395} = 0.253$
+$\text{Probability that a person completed high school P(HS): }\frac{100}{395} \text{ = 0.253}$
 
-\text{Probability that a person completed Bachelors P(B): }\frac{98}{395} = 0.248$
+$\text{Probability that a person completed Bachelors P(B): }\frac{98}{395} \text{ = 0.248}$
 
-\text{Probability that a person completed Masters P(M): }\frac{99}{395} = 0.251$
+$\text{Probability that a person completed Masters P(M): }\frac{99}{395} \text{ = 0.251}$
 
-\text{Probability that a person completed PhD P(P): }\frac{98}{395} = 0.248$
+$\text{Probability that a person completed PhD P(P): }\frac{98}{395} \text{ = 0.248}$
 
 <table style="width:70%">
 <caption style="text-align:center">Expected Counts</caption>
