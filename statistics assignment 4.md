@@ -79,7 +79,7 @@ $\underline{Significance}$
     <td>201</td>
   </tr>
   <tr>
-    <th>Male</th>
+    <th>Male </th>
     <td>40</td>
     <td>44</td>
     <td>53</td>
