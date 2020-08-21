@@ -1,3 +1,3 @@
 # ineuron
 
-DLCVNLP 25 th july
+DLCVNLP 25th July
